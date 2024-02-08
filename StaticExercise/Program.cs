@@ -4,7 +4,18 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Enter a temperate in degrees Fahrenheit to find out the equivalent in Celsius:");
+            TempConverter.FahrenheitToCelsius(int.Parse(Console.ReadLine()));
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("----------------");
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+
+            Console.WriteLine("Enter a temperate in degrees Celsius to find out the equivalent in Fahrenheit:");
+            TempConverter.CelsiusToFahrenheit(int.Parse(Console.ReadLine()));
         }
     }
 }
